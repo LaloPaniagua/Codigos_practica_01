@@ -3,12 +3,12 @@
 int main()
 {
 	int array1[10],i;
-	for(i=0;i<10;i++)
+	for(i=0;i<10;i++) //se crea un for para imprimer todas las direcciones de memoria de los elementos del arreglo 
 		{
-			printf("Direcci髇 de memoria del elemento %i: %p\n",i,&array1[i]);                              
+			printf("Direcci贸n de memoria del elemento %i: %p\n",i,&array1[i]);                              
 		}
-	printf("\nDirecci髇 del primer elemento: %p\n",&array1[0]);
-	printf("Direcci髇 del arreglo: %p\n",&array1);
+	printf("\nDirecci贸n del primer elemento: %p\n",&array1[0]); //Esta parte de linea realiza la impresi贸n de la direccion de memoria del primer elemento del arreglo 
+	printf("Direcci贸n del arreglo: %p\n",&array1);
 	return 1;
 	
 }
