@@ -35,4 +35,4 @@ int main(){
     printf("Direccion en memoria del arreglo: %p",&arr);
 }
 
-// Programa realizado por Diego Barragán Rivera y Justheene Ezequiel Salgado Becerra.
+// Programa realizado por Diego Barragán Rivera y Justheene Ezequiel Salgado Becerra el 4/3/2020.
