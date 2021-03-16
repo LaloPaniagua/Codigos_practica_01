@@ -15,3 +15,5 @@ int main()
 		printf("Dirección en memoria del arreglo: %p",&array2);
 		return 1;
 	}
+
+//Programa realizado por Eduardo Miguel Paniagua Broca.
