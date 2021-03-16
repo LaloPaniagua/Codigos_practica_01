@@ -1,6 +1,6 @@
 #include<stdio.h>
 /*
-Programa que realiza la implementación de la escitala espartana
+Programa que realiza la implementaciÃ³n de la escitala espartana
 Para cifrar y descifrar.
 */
 void crearMensaje();
@@ -8,8 +8,8 @@ void descifrarMensaje();
 int main(){
 short opcion=0;
 while (1){
-printf("\n\t*** ESCÍTALA ESPARTANA ***\n");
-printf("¿Qué desea realizar?\n");
+printf("\n\t*** ESCÃTALA ESPARTANA ***\n");
+printf("Â¿QuÃ© desea realizar?\n");
 printf("1) Crear mensaje cifrado.\n");
 printf("2) Descifrar mensaje.\n");
 printf("3) Salir.\n");
@@ -24,14 +24,14 @@ break;
 case 3:
 return 0;
 default:
-printf("Opción no válida.\n");
+printf("OpciÃ³n no vÃ¡lida.\n");
 }
 }
 return 0;
 }
 void crearMensaje(){
 int ren, col, i, j, k=0;
-printf("Ingresar el tamaño de la escítala:\n");
+printf("Ingresar el tamaÃ±o de la escÃ­tala:\n");
 printf("\nRenglones:");
 scanf("%i",&ren);
 printf("\nColumnas:");
@@ -51,7 +51,7 @@ printf("\n");
 }
 void descifrarMensaje(){
 int ren, col, i, j, k=0;
-printf("Ingresar el tamaño de la escítala:\n");
+printf("Ingresar el tamaÃ±o de la escÃ­tala:\n");
 printf("\nRenglones:");
 scanf("%i",&ren);
 printf("\nColumnas:");
@@ -68,3 +68,5 @@ for (i=0 ; i<ren ; i++)
 for (j=0 ; j<col ; j++)
 printf("%c", escitala[i][j]);
 }
+
+// Programa tomado del manual de prÃ¡cticas de EDA I consultado el 4/3/2021
