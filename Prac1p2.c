@@ -16,4 +16,4 @@ int main()
 		return 1;
 	}
 
-//Programa realizado por Eduardo Miguel Paniagua Broca.
+//Programa realizado por Eduardo Miguel Paniagua Broca el 4/3/2021.
