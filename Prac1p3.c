@@ -34,3 +34,5 @@ int main(){
     printf("Direccion en memoria del primer elemento: %p\n",&arr[0][0][0]);
     printf("Direccion en memoria del arreglo: %p",&arr);
 }
+
+// Programa realizado por Diego Barragán Rivera y Justheene Ezequiel Salgado Becerra.
