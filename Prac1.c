@@ -1,9 +1,14 @@
 #include<stdio.h>
 #include<stdlib.h>
+/*
+*
+*
+*
+*/
 int main()
 {
 	int array1[10],i;
-	for(i=0;i<10;i++) //se crea un for para imprimir todas las direcciones de memoria de los elementos del arreglo 
+	for(i=0;i<10;i++) //se crea un ciclo for para imprimir todas las direcciones de memoria de los elementos del arreglo 
 		{
 			printf("Dirección de memoria del elemento %i: %p\n",i,&array1[i]);                              
 		}
